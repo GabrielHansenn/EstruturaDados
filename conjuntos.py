@@ -25,7 +25,7 @@ for i in palavra:
     if i in conjunto_vogais:
         print(i)
 
-#Crie dois conjuntos com nomes de frutas e verifique se há alguma fruta em comum entre os conjuntos.
+#4.Crie dois conjuntos com nomes de frutas e verifique se há alguma fruta em comum entre os conjuntos.
 print("\n4:")
 conjunto_frutas1 = {'maçã','uva'}
 conjunto_frutas2 = {'maçã','laranja'}
@@ -33,7 +33,7 @@ conjunto_frutas2 = {'maçã','laranja'}
 intersecao_frutas = conjunto_frutas1.intersection(conjunto_frutas2)
 print(intersecao_frutas)
 
-#Crie um conjunto com números inteiros aleatórios e imprima o maior e o menor número do conjunto.
+#5.Crie um conjunto com números inteiros aleatórios e imprima o maior e o menor número do conjunto.
 print("\n5:")
 conjuntoAleatorio = {40,22,52,71,84,6,89}
 
@@ -51,7 +51,7 @@ for i in conjuntoAleatorio:
 print("O maior numero é :", maior)
 print("O menor numero é :", menor)
 
-#Crie um conjunto com as cores do arco-íris (vermelho, laranja, amarelo, verde, azul, anil, violeta) e peça ao usuário para digitar uma cor. Verifique se a cor digitada está no conjunto e imprima uma mensagem correspondente.
+#6.Crie um conjunto com as cores do arco-íris (vermelho, laranja, amarelo, verde, azul, anil, violeta) e peça ao usuário para digitar uma cor. Verifique se a cor digitada está no conjunto e imprima uma mensagem correspondente.
 print("\n6:")
 conjuntoArcoIris = {'vermelho', 'laranja', 'amarelo', 'verde', 'azul', 'anil', 'violeta'}
 cor = input("Digite uma cor:")
@@ -62,7 +62,7 @@ if cor in conjuntoArcoIris:
 else:
     print("NAO CONTÉM ESSA COR")
 
-#Crie um conjunto com os dias da semana (segunda, terça, quarta, quinta, sexta, sábado, domingo) e remova os dias úteis (segunda a sexta). Imprima o vconjunto resultante.
+#7.Crie um conjunto com os dias da semana (segunda, terça, quarta, quinta, sexta, sábado, domingo) e remova os dias úteis (segunda a sexta). Imprima o vconjunto resultante.
 print("\n7:")
 conjuntoDias = {'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo'}
 conjuntoDias.remove('segunda')
@@ -72,7 +72,7 @@ conjuntoDias.remove('quinta')
 conjuntoDias.remove('sexta')
 print(conjuntoDias)
 
-#Crie um conjunto com os números de 1 a 20 e outro conjunto com os números pares de 1 a 10. Imprima a diferença entre os dois conjuntos.
+#8.Crie um conjunto com os números de 1 a 20 e outro conjunto com os números pares de 1 a 10. Imprima a diferença entre os dois conjuntos.
 print("\n8:")
 conjunto1a20 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}
 conjuntoPares = {2,4,6,8,10}
@@ -80,7 +80,7 @@ conjuntoPares = {2,4,6,8,10}
 diferenca8 = conjunto1a20.difference(conjuntoPares)
 print(diferenca8)
 
-#Crie um conjunto com as notas de um aluno em uma disciplina e verifique se ele foi aprovado (média 7) ou reprovado (média abaixo de 7).
+#9.Crie um conjunto com as notas de um aluno em uma disciplina e verifique se ele foi aprovado (média 7) ou reprovado (média abaixo de 7).
 print("\n9:")
 
 notas = {7.5, 6.5, 9.0}
@@ -93,10 +93,9 @@ else:
     situacao = "Reprovado"
 
 print("Notas do aluno:", notas)
-print("Média:", media)
 print("Aluno foi:", situacao)
 
-#Crie um conjunto com os números primos de 1 a 20 e verifique se um número digitado pelo usuário está no conjunto.
+#10.Crie um conjunto com os números primos de 1 a 20 e verifique se um número digitado pelo usuário está no conjunto.
 print("\n10:")
 conjuntoPrimos = {2, 3, 5, 7, 11, 13, 17, 19}
 número = int(input("Digite um número de 1 a 20: "))
